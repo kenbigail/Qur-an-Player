@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    font-weight: 500;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.container-header {
+    width: 50%;
+    height: 80%;
+    margin-top: 40px;
+    z-index: 100;
+
+    background: #7D15FE;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header-fixed {
+    width: 50%;
+    height: 5vh;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+
+    position: fixed;
+    z-index: 110000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text {
+    margin-top: 38px;
+    margin-left: 25px;
+}
+
+.salam {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.welcome {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.surah {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-surah {
+    width: 50%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.menu {
+    margin-top: 15px;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu p {
+    font-family: 'Poppins', sans-serif;
+    align-items: flex-start;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.container-surat {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 2%;
+    transition: 0.2s;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-surat:hover {
+    scale: 105%;
+    transition: 0.2s;
+}
+
+.left-side {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.up {
+    height: 35%;
+    width: 100%;
+    padding: 15px 25px;
+
+    display: flex;
+}
+
+.title-surat {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.down {
+    height: 50%;
+    width: 100%;
+    padding-left: 25px;
+
+    display: flex;
+    flex-direction: row;
+
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.no-surat {
+    margin-right: 5px;
+}
+
+.type {
+    margin-right: 5px;
+}
+
+.right-side {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    height: 5vh;
+}
+
+
+
+@media screen and (max-width: 1226px) {
+    .title-surat {
+        font-size: 1.1em;
+    }
+
+    .down {
+        font-size: 0.7em;
+    }
+
+    .audio {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .header-fixed {
+        width: 100%;
+    }
+
+    .container-header {
+        width: 100%;
+    }
+
+    .container-surah {
+        width: 80%;
+    }
+
+    .title-surat {
+        font-size: 1em;
+    }
+
+    .down {
+        font-size: 0.6em;
+    }
+
+    .audio {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .title-surat {
+        font-size: 0.9em;
+    }
+
+    .down {
+        font-size: 0.6em;
+    }
+
+    .audio {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 483px) {
+
+    .title-surat {
+        font-size: 0.8em;
+    }
+
+    .container-text {
+        margin-top: 0px;
+        margin-top: 35px;
+    }
+
+    .salam {
+        font-size: 0.8em;
+    }
+
+    .welcome {
+        font-size: 1.5em;
+    }
+
+    .down {
+        font-size: 0.5em;
+    }
+
+    .audio {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .title-surat {
+        font-size: 0.7em;
+    }
+
+    .container-text {
+        margin-top: 0px;
+        margin-top: 20px;
+    }
+
+    .salam {
+        font-size: 0.6em;
+    }
+
+    .welcome {
+        font-size: 1.8em;
+    }
+
+    .down {
+        font-size: 0.5em;
+    }
+
+    .audio {
+        width: 65%;
+    }
+}
